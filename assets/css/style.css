@@ -1,0 +1,38 @@
+.myFooter{
+    -webkit-animation: cyclecolors linear infinite;
+    -webkit-animation-duration: 90s;
+    -webkit-animation-iteration-count: infinite;
+    animation: cyclecolors;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: white;
+}
+
+@keyframes cyclecolors{
+0% {
+    background-color: hsl(300, 100%, 33%);
+}
+16% {
+    background-color: hsl(212, 100%, 49%);
+}
+32% {
+    background-color: hsl(130, 100%, 33%);
+}
+48% {
+    background-color: #fdc345;
+}
+64% {
+    background-color: #f89438;
+}
+96% {
+    background-color: #e65453;
+}
+}
+
+
+
+
+
+
+
