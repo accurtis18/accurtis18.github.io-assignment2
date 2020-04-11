@@ -1,3 +1,35 @@
+*{
+    font-family: "Open Sans", Helvetica, sans-serif; 
+}
+
+.portfolioItem{
+    margin-bottom: 25px;
+    position: relative;
+    height: auto; 
+    overflow: hidden
+}
+
+.portfolioImg{
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolioCaption{
+    position: absolute;
+    top: 8px;
+    color: white;
+    height: 30px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
 .myFooter{
     -webkit-animation: cyclecolors linear infinite;
     -webkit-animation-duration: 90s;
@@ -29,10 +61,3 @@
     background-color: #e65453;
 }
 }
-
-
-
-
-
-
-
