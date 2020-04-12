@@ -9,31 +9,25 @@ body{
 .portfolioItem{
     margin-bottom: 25px;
     position: relative;
-    height: auto; 
+    height: 350px; 
     overflow: hidden;
 }
 
 .portfolioImg{
+    max-height: 390px;
     object-fit: fill;
-    padding: 0;
-    margin: 0;
 }
 
 .portfolioCaption{
     position: absolute;
-    top: 12px;
+    top: 10px;
     color: white;
     height: 40px;
     padding: 10px;
-    overflow: hidden;
     background-color: hsl(212, 100%, 49%);
-    z-index: 1;
-    margin-bottom: 28px;
 }
 
 .carousel-caption{
-    width: auto;
-    max-width: 100%;
     left: 15px;
     right: 15px;
 }
