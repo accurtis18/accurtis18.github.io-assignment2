@@ -25,6 +25,15 @@ body{
     right: 15px;
 }
 
+.contactInfo{
+    padding: 0;
+}
+
+.contactInfoList{
+    list-style: none;
+    padding: 5px;
+}
+
 .myFooter{
     -webkit-animation: cyclecolors linear;
     -webkit-animation-duration: 90s;
