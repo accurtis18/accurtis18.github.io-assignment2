@@ -9,13 +9,6 @@ body{
 .portfolioItem{
     margin-bottom: 25px;
     position: relative;
-    height: 350px; 
-    overflow: hidden;
-}
-
-.portfolioImg{
-    max-height: 390px;
-    object-fit: fill;
 }
 
 .portfolioCaption{
@@ -31,13 +24,6 @@ body{
     left: 15px;
     right: 15px;
 }
-
-
-
-
-
-
-
 
 .myFooter{
     -webkit-animation: cyclecolors linear;
