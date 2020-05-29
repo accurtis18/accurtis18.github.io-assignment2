@@ -4,6 +4,15 @@
 
 body{
     padding-bottom: 60px;
+    background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
+}
+
+h1{
+    color: white;
+}
+
+.bio{
+    color: white;
 }
 
 .portfolioItem{

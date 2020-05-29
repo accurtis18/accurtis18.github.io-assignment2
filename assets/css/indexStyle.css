@@ -1,0 +1,81 @@
+*{
+    font-family: "Open Sans", Helvetica, sans-serif; 
+    color: white;
+}
+
+body{
+    height: 100%;
+    background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
+    background-position: 0 56px;
+}
+
+html {
+    height: 100%;
+  }
+
+.intro{
+    text-align: center;
+    padding: 17%;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+    float: right;
+    padding-top: 12%;
+}
+
+.pic{
+    padding: 0;
+    height: 100%;
+    width: auto;
+    float: left;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.bio{
+    float: right;
+    padding: 2% 5%;
+}
+
+.topPortfolio{
+    padding-top: 150px;
+}
+
+.portLinks:hover{
+    text-decoration-color: white;
+}
+
+.portfolioImg{
+    border-radius: 5px;
+}
+
+.portfolioItem{
+    padding-top: 50px;
+}
+
+.contact{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.contactInfoList{
+    list-style: none;
+    padding: 5px;
+}
+
+.contactInfo{
+    color: white;
+}
+
+.myFooter{
+    margin-top: 100px;
+}
+
+
