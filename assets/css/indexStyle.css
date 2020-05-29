@@ -81,6 +81,21 @@ html {
     color: white;
 }
 
+.resumeHeader{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.resume{
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.resumeFooter{
+    margin-top: 20px;
+}
+
 .myFooter{
     margin-top: 100px;
 }
