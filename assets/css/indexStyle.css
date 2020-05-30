@@ -22,7 +22,13 @@ html {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover, contain;
+    background-size: contain;
+    
+}
+
+.intTitle{
+    font-size: 125px;
+    text-shadow: -5px 10px black;
 }
 
 .title{
@@ -38,6 +44,7 @@ html {
     float: left;
     overflow: hidden;
     border-radius: 5px;
+    box-shadow: .5px .5px 25px black;
 }
 
 .bio{
