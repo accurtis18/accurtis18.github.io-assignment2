@@ -3,16 +3,16 @@
     color: white;
 }
 
-html {
-    height: 100vh;
-  }
-
 body{
     height: 100vh;
     background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     background: -webkit-linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     background-position: 0 56px;
-    background-size: cover;
+    background-size: repeat;
+}
+
+html {
+    height: 100%;
 }
 
 .intro{
