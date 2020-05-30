@@ -4,11 +4,12 @@
 }
 
 body{
+    height: 100vh;
     background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     background: -webkit-linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     height: calc(var(--vh, 1vh) * 100);
     background-position: 0 56px;
-    background-size: 100%;
+    background-size: 100vw, 100vh;
     background-repeat: no-repeat;
 }
 
