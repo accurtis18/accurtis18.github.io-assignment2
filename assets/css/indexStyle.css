@@ -4,11 +4,11 @@
 }
 
 html {
-    height: 100vmin;
+    height: 100vh;
   }
 
 body{
-    height: 100vmin;
+    height: 100vh;
     background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     background: -webkit-linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     background-position: 0 56px;
