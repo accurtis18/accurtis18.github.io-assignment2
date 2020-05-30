@@ -5,11 +5,12 @@
 
 body{
     height: 100vh;
+    width: 100vw;
     background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     background: -webkit-linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
-    background-position: 0 56px;
-    background-size: contain;
-    background-position: fixed;
+    background-position: 0 56px fixed;
+    background-size: cover;
+
 }
 
 html {
@@ -24,13 +25,12 @@ html {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    overflow: hidden;   
+    background-size: contain;  
 }
 
 .intTitle{
     font-size: 8vw;
-    text-shadow: -5px 10px black;
+    text-shadow: -.5vw 1vh black;
 }
 
 .title{
