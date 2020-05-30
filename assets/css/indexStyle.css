@@ -4,19 +4,13 @@
 }
 
 body{
-    /* height: 100vh; */
     height: 100vh;
-    background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%));
-    background: -webkit-linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%));
+    background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
+    background: -webkit-linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     background-position: 0 56px;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
-}
-
-html {
-    height: 100vh;
 }
 
 .intro{
