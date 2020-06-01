@@ -42,7 +42,7 @@ body:after{
 .intTitle{
     font-size: 8vw;
     /* text-shadow: -5px 10px black; */
-    text-shadow: -.06em .1em black;
+    text-shadow: -.06em .1em .06em black;
 }
 
 .title{
