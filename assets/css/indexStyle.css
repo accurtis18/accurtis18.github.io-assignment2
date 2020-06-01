@@ -8,7 +8,9 @@ body{
     min-height: -webkit-fill-available;
     background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     background: -webkit-linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
-    background-position: 0 55px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 10px 55px;
 }
 
 html{
