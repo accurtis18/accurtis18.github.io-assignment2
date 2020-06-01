@@ -4,12 +4,16 @@
 }
 
 body{
-    height: calc(var(--vh, 1vh) * 100);
+    height: 100vh;
+    min-height: -webkit-fill-available;
     background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     background: -webkit-linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
-    height: calc(var(--vh, 1vh) * 100);
     background-position: 0 56px;
-    background-size: 100vw, calc(var(--vh, 1vh) * 100);
+    background-size: -webkit-fill-available;
+}
+
+html{
+    height: -webkit-fill-available;
 }
 
 .intro{
@@ -62,6 +66,7 @@ body{
 
 .portfolioImg{
     border-radius: 5px;
+    box-shadow: .25px .25px 15px black;
 }
 
 .portfolioItem{
