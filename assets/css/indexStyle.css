@@ -23,7 +23,7 @@ body:after{
     display:block;
     content:"";
     z-index:-1;
-    background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
+    background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%));
     background-size: 100% 100vh;
 }
 
