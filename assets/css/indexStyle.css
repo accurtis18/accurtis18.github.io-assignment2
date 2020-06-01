@@ -8,11 +8,15 @@ body{
     max-height: -webkit-fill-available;
     background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     background-size: -webkit-fill-available;
-    background-position: 0 55px;
 }
 
 html{
     max-height: -webkit-fill-available;
+}
+
+#nav{
+    background-color: none;
+    opacity: 100%;
 }
 
 .intro{
