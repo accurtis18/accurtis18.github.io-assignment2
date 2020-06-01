@@ -3,6 +3,10 @@
     color: white;
 }
 
+html{
+    height: 100%;
+}
+
 body{
     min-height: 100vh;
     min-height: -webkit-fill-available;
@@ -21,9 +25,7 @@ body:after{
     background-size: 100% 100vh;
 }
 
-html{
-    height: -webkit-fill-available;
-}
+
 
 #nav{
     background-color: none;
