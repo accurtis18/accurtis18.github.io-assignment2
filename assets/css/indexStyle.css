@@ -8,10 +8,10 @@ html{
 }
 
 body{
-    min-height: 100vh;
+    min-height: 102vh;
     min-height: -webkit-fill-available;
     background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
-    background-size: 100% 100vh;
+    background-size: 100% 102vh;
 }
 
 body:after{
@@ -24,7 +24,7 @@ body:after{
     content:"";
     z-index:-1;
     background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%));
-    background-size: 100% 100vh;
+    background-size: 100% 102vh;
 }
 
 #nav{
