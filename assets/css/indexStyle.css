@@ -4,11 +4,12 @@
 }
 
 body{
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
+    max-height: 100vh;
+    max-height: -webkit-fill-available;
     background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     background: -webkit-linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%)) fixed;
     background-position: 0 56px;
+    /* background-size: contain; */
 }
 
 html{
