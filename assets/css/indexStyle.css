@@ -25,6 +25,7 @@ body:after{
     z-index:-1;
     background: linear-gradient(hsl(300, 100%, 33%), hsl(212, 100%, 49%));
     background-size: 100% 110vh;
+    background-position: 0 55px;
 }
 
 .intro{
