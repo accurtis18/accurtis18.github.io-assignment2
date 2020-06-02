@@ -27,11 +27,6 @@ body:after{
     background-size: 100% 110vh;
 }
 
-#nav{
-    background-color: none;
-    opacity: 100%;
-}
-
 .intro{
     text-align: center;
     padding-top: 40vh;
