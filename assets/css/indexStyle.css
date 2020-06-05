@@ -34,8 +34,7 @@ body:after{
 
 #arrow-down {
   position: relative;
-  margin: 0 auto;
-  padding-top: 30%;
+  margin: 30% auto;
   text-align: center;
   animation: jump 5s infinite;
     i {
