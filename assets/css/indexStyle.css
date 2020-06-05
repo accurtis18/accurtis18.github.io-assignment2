@@ -57,7 +57,7 @@ body:after{
 .pic{
     padding: 0;
     margin-top: 2%;
-    height: auto;
+    height: 95vh;
     width: auto;
     float: left;
     overflow: hidden;
@@ -68,6 +68,7 @@ body:after{
 .bio{
     float: right;
     padding: 2% 5%;
+    font-size: 17px;
 }
 
 @media (max-width: 950px){
@@ -94,6 +95,10 @@ body:after{
     padding-top: 50px;
 }
 
+.portDesc{
+    font-size: 17px;
+}
+
 .contact{
     text-align: center;
     padding-top: 150px;
@@ -104,8 +109,16 @@ body:after{
     padding: 5px;
 }
 
+.contactInfoList li{
+    display: inline;
+}
+
 .contactInfo{
-    color: white;
+    padding: 0 2.5%;
+}
+
+.contactInfo:hover{
+    text-decoration-color: white;
 }
 
 .resumeHeader{
