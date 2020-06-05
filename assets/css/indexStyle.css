@@ -34,7 +34,7 @@ body:after{
 
 #arrow-down {
   position: relative;
-  margin: 30% auto;
+  margin: 20% auto;
   text-align: center;
   animation: jump 5s infinite;
     i {
@@ -78,7 +78,8 @@ body:after{
 .pic{
     padding: 0;
     margin-top: 2%;
-    height: 95vh;
+    height: auto;
+    max-height: 95vh;
     width: auto;
     float: left;
     overflow: hidden;
