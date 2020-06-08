@@ -66,7 +66,8 @@ body:after{
 .title{
     text-align: center;
     float: right;
-    padding-top: 12%;
+    margin-top: 5%;
+    padding-top: 10%;
 }
 
 .aboutMe{
@@ -78,7 +79,7 @@ body:after{
 
 .pic{
     padding: 0;
-    margin-top: 2%;
+    margin-top: 3.2%;
     height: auto;
     max-height: 95vh;
     width: auto;
@@ -92,6 +93,7 @@ body:after{
     float: right;
     padding: 2% 5%;
     font-size: 17px;
+    text-indent: 25px;
 }
 
 @media (max-width: 950px){
@@ -111,6 +113,10 @@ body:after{
 
 .portLinks:hover{
     text-decoration-color: white;
+}
+
+.port{
+    margin-bottom: 10px;
 }
 
 .portfolioImg{
