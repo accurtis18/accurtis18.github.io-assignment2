@@ -66,8 +66,8 @@ body:after{
 .title{
     text-align: center;
     float: right;
-    margin-top: 5%;
-    padding-top: 10%;
+    margin-top: 7%;
+    padding-top: 8%;
 }
 
 .aboutMe{
@@ -116,7 +116,7 @@ body:after{
 }
 
 .port{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .portfolioImg{
