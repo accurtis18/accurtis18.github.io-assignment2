@@ -37,17 +37,18 @@ body:after{
   margin: 20% auto;
   text-align: center;
   animation: jump 5s infinite;
+}
     i {
       content: '\f0a8';
       font-family: 'FontAwesome';
-      font-size: 80px;
+      font-size: 20px;
       transition: .3s ease-in-out;
   }
     i:hover {
       opacity: 0.7;
       transition: .3s ease-in-out;
   }
-}
+
 
 .intro{
     text-align: center;
